@@ -11,7 +11,7 @@ function outPut(a, b) {
         obj[num] = ""
     }
 
-    for (let i=0; i<a.length; i++){
+    for (let i=0; i<b.length; i++){
         if (b[i] in obj) {
             result.push(b[i])
         }
